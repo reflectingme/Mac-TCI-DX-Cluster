@@ -1,2 +1,34 @@
-# Mac-TCI-DX-Cluster
-Official macOS downloads and release notes for Mac TCI DX Cluster by GW3JVB.
+# Mac TCI DX Cluster · by GW3JVB
+
+A native macOS DX cluster app for receiving spots from Telnet clusters and connecting to external TCI radio servers.
+
+## Download
+
+**[Download the latest Mac installer](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases/latest)** · [Release notes and all downloads](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases)
+
+Version 0.1.0 requires **macOS 14 or later** and includes **Apple Silicon and Intel** builds. The DMG is **Developer ID-signed and notarised by Apple**. Early-user feedback is welcome; Intel and macOS 14 runtime testing remain to be confirmed.
+
+1. Open the downloaded DMG.
+2. Drag **Mac TCI DX Cluster** into **Applications**.
+3. Launch it and allow **Local Network** access when prompted.
+
+Use the `.dmg` asset. GitHub's automatically generated “Source code” ZIP/TAR files contain this downloads repository, not the installer or private application code.
+
+## Features
+
+- Multiple saved Telnet cluster profiles and simultaneous connections, with merged or separate spot lists.
+- Band, mode and continent filters shared by the displayed list and automatic forwarding.
+- Three independent outgoing TCI connections, with selectable spot-forwarding and click-to-tune targets.
+- Consolidated reports, source details, country/flag columns and saved column arrangements.
+- Cluster history retrieval, manual spot posting and an optional current-VFO frequency/mode snapshot.
+- Top or sidebar controls, light/dark appearance, searchable in-app Help and GitHub update checks.
+
+The app connects to TCI servers supplied by radio-control software. It does not host a TCI server or provide direct USB/CAT radio control. Server-specific behaviour is described in the in-app Help.
+
+## Help and support
+
+Use **Help → In-app Help** or visit **[Discord support](https://discord.gg/jUZR3x9R4M)** for setup help, feedback and feature requests.
+
+Created by **GW3JVB**. Testing by **Andy · [M7SBC](https://www.qrz.com/db/M7SBC)**.
+
+Free to use, with optional PayPal and Buy Me a Coffee donation links in the app. This public repository contains downloads, release notes and documentation. Application source code is maintained privately.

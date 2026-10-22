@@ -6,7 +6,7 @@ A native macOS DX cluster app for receiving spots from Telnet clusters and conne
 
 **[Download the latest Mac installer](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases/latest)** · [Release notes and all downloads](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases)
 
-Version 0.1.2 requires **macOS 14 or later** and includes **Apple Silicon and Intel** builds. The DMG is **Developer ID-signed and notarised by Apple**. Early-user feedback is welcome; Intel and macOS 14 runtime testing remain to be confirmed.
+Version 0.1.3 requires **macOS 14 or later** and includes **Apple Silicon and Intel** builds. The DMG is **Developer ID-signed and notarised by Apple**. Early-user feedback is welcome; Intel and macOS 14 runtime testing remain to be confirmed.
 
 1. Open the downloaded DMG.
 2. Drag **Mac TCI DX Cluster** into **Applications**.
@@ -18,14 +18,21 @@ Use the `.dmg` asset. GitHub's automatically generated “Source code” ZIP/TAR
 
 - Multiple saved Telnet cluster profiles and simultaneous connections, with merged or separate spot lists.
 - Band, mode and continent filters shared by the displayed list and automatic forwarding.
-- Three independent outgoing TCI connections, with selectable spot-forwarding and click-to-tune targets.
+- Three independent outgoing TCI connections, with selectable spot-forwarding and click-to-tune targets. Hide unused connection cards in either layout.
 - Optional mode selection from explicit reports or UK / Region 1 frequency estimates.
 - Consolidated reports, source details, country/flag columns and saved column arrangements.
 - Cluster history retrieval, manual spot posting and an optional current-VFO frequency/mode snapshot.
 - Top or collapsible sidebar controls, light/dark appearance, searchable in-app Help and GitHub update checks.
 - Saved table text size with Smaller/Default/Larger controls and Command + / Command − / Command 0 shortcuts, suggested by Andy (M7SBC).
 
+- Read-only local RUMlogNG integration with callsign, DXCC and continent worked/needed checks across band and mode, combined using Match any or Match all.
+- Configurable row highlights, an exact-callsign watchlist and automatic explanations of needed spots.
+- Optional sound and macOS notifications with alert-band choices and repeat suppression.
+- Formatted release notes in the update window, with headings, emphasis and clickable links.
+
 The app connects to TCI servers supplied by radio-control software. It does not host a TCI server or provide direct USB/CAT radio control. Server-specific behaviour is described in the in-app Help.
+
+RUMlogNG checks use the selected local `.rlog` file and never modify it. Needed means absent from that log, not confirmed award credit. Other loggers and internal iCloud databases are not supported in this version.
 
 ## Help and support
 

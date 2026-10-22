@@ -6,7 +6,7 @@ A native macOS DX cluster app for receiving spots from Telnet clusters and conne
 
 **[Download the latest Mac installer](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases/latest)** · [Release notes and all downloads](https://github.com/reflectingme/Mac-TCI-DX-Cluster/releases)
 
-Version 0.1.0 requires **macOS 14 or later** and includes **Apple Silicon and Intel** builds. The DMG is **Developer ID-signed and notarised by Apple**. Early-user feedback is welcome; Intel and macOS 14 runtime testing remain to be confirmed.
+Version 0.1.1 requires **macOS 14 or later** and includes **Apple Silicon and Intel** builds. The DMG is **Developer ID-signed and notarised by Apple**. Early-user feedback is welcome; Intel and macOS 14 runtime testing remain to be confirmed.
 
 1. Open the downloaded DMG.
 2. Drag **Mac TCI DX Cluster** into **Applications**.
@@ -19,6 +19,7 @@ Use the `.dmg` asset. GitHub's automatically generated “Source code” ZIP/TAR
 - Multiple saved Telnet cluster profiles and simultaneous connections, with merged or separate spot lists.
 - Band, mode and continent filters shared by the displayed list and automatic forwarding.
 - Three independent outgoing TCI connections, with selectable spot-forwarding and click-to-tune targets.
+- Optional mode selection from explicit reports or UK / Region 1 frequency estimates.
 - Consolidated reports, source details, country/flag columns and saved column arrangements.
 - Cluster history retrieval, manual spot posting and an optional current-VFO frequency/mode snapshot.
 - Top or sidebar controls, light/dark appearance, searchable in-app Help and GitHub update checks.
